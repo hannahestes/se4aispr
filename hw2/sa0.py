@@ -26,8 +26,12 @@ def sa(data, k=4000, m_rate=0.5, loud=False):
     - Find nearest neighbor in data.rows using nearest(data, row, data.rows)
     - Copy neighbor's y-values to row: for y in data.cols.y: row[y.at] = near[y.at]
     - Return disty(data, row)
-    """
-    pass  # <- Replace this
+    """  # <- Replace this
+    near = nearest(data, row, data.rows)
+    for y in data.clos.y:
+      row[y.at] = near[y.at]
+    return disty(data, row)
+  
 
   # Initialize: random starting point
   s = random.choice(data.rows)[:]
