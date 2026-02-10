@@ -48,7 +48,7 @@ def sa(data, k=4000, m_rate=0.5, loud=False):
     # TODO 3: Replace "False" with Metropolis-Hastings acceptance criterion
     # Accept if: (1) en < e (better), OR (2) random.random() < exp((e - en) / T)
     # where T = 1 - heat/k (temperature that cools from 1 to 0)
-    if en < e or random.random() < math.exp((e - en) / (1-heat/k)): 
+    if False:  # <- Replace this condition
       s, e = sn, en
       if en < disty(data, best):
         best = s[:]
