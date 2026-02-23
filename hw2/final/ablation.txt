@@ -1,0 +1,122 @@
+####### Greedy ####### Avg: 0.114 Std: 0.00225 Best: 0.066 Worst: 0.291
+Seed: 1
+Avg: 0.274 Std: 0.042 Best: 0.084 Worst: 0.666
+
+Seed: 2
+Avg: 0.191 Std: 0.006 Best: 0.097 Worst: 0.314
+
+Seed: 3
+Avg: 0.175 Std: 0.006 Best: 0.116 Worst: 0.313
+
+Seed: 4
+Avg: 0.132 Std: 0.000 Best: 0.132 Worst: 0.132
+
+Seed: 5
+Avg: 0.154 Std: 0.004 Best: 0.111 Worst: 0.270
+
+Seed: 6
+Avg: 0.283 Std: 0.034 Best: 0.086 Worst: 0.579
+
+Seed: 7
+Avg: 0.339 Std: 0.026 Best: 0.107 Worst: 0.566
+
+Seed: 8
+Avg: 0.207 Std: 0.012 Best: 0.068 Worst: 0.338
+
+Seed: 9
+Avg: 0.241 Std: 0.011 Best: 0.097 Worst: 0.386
+
+Seed: 10
+Avg: 0.291 Std: 0.011 Best: 0.114 Worst: 0.400
+
+Seed: 11
+Avg: 0.149 Std: 0.004 Best: 0.069 Worst: 0.231
+
+Seed: 12
+Avg: 0.143 Std: 0.000 Best: 0.136 Worst: 0.155
+
+Seed: 13
+Avg: 0.351 Std: 0.066 Best: 0.131 Worst: 0.690
+
+Seed: 14
+Avg: 0.134 Std: 0.003 Best: 0.088 Worst: 0.216
+
+Seed: 15
+Avg: 0.203 Std: 0.010 Best: 0.066 Worst: 0.333
+
+Seed: 16
+Avg: 0.135 Std: 0.002 Best: 0.075 Worst: 0.196
+
+Seed: 17
+Avg: 0.204 Std: 0.007 Best: 0.129 Worst: 0.319
+
+Seed: 18
+Avg: 0.395 Std: 0.011 Best: 0.291 Worst: 0.499
+
+Seed: 19
+Avg: 0.205 Std: 0.002 Best: 0.123 Worst: 0.245
+
+Seed: 20
+Avg: 0.310 Std: 0.034 Best: 0.150 Worst: 0.581
+
+####### SA ####### Avg: 0.117 Std: 0.00102 Best: 0.072 Worst: 0.194
+Seed: 1
+Avg: 0.137 Std: 0.001 Best: 0.132 Worst: 0.360
+
+Seed: 2
+Avg: 0.415 Std: 0.039 Best: 0.144 Worst: 0.745
+
+Seed: 3
+Avg: 0.235 Std: 0.004 Best: 0.091 Worst: 0.348
+
+Seed: 4
+Avg: 0.072 Std: 0.000 Best: 0.072 Worst: 0.072
+
+Seed: 5
+Avg: 0.259 Std: 0.030 Best: 0.081 Worst: 0.569
+
+Seed: 6
+Avg: 0.128 Std: 0.012 Best: 0.085 Worst: 0.585
+
+Seed: 7
+Avg: 0.254 Std: 0.016 Best: 0.125 Worst: 0.524
+
+Seed: 8
+Avg: 0.278 Std: 0.006 Best: 0.162 Worst: 0.380
+
+Seed: 9
+Avg: 0.269 Std: 0.011 Best: 0.194 Worst: 0.417
+
+Seed: 10
+Avg: 0.091 Std: 0.000 Best: 0.088 Worst: 0.119
+
+Seed: 11
+Avg: 0.156 Std: 0.002 Best: 0.146 Worst: 0.349
+
+Seed: 12
+Avg: 0.144 Std: 0.001 Best: 0.131 Worst: 0.427
+
+Seed: 13
+Avg: 0.288 Std: 0.037 Best: 0.084 Worst: 0.631
+
+Seed: 14
+Avg: 0.123 Std: 0.002 Best: 0.079 Worst: 0.311
+
+Seed: 15
+Avg: 0.183 Std: 0.005 Best: 0.132 Worst: 0.284
+
+Seed: 16
+Avg: 0.191 Std: 0.020 Best: 0.086 Worst: 0.577
+
+Seed: 17
+Avg: 0.282 Std: 0.017 Best: 0.114 Worst: 0.596
+
+Seed: 18
+Avg: 0.321 Std: 0.024 Best: 0.129 Worst: 0.600
+
+Seed: 19
+Avg: 0.122 Std: 0.000 Best: 0.121 Worst: 0.219
+
+Seed: 20
+Avg: 0.274 Std: 0.021 Best: 0.144 Worst: 0.479
+

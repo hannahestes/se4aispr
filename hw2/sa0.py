@@ -6,7 +6,12 @@ Homework skeleton - complete the TODOs
 import sys, math, random
 from ezr import csv, distx, disty, gauss, sd, pick, Data, nearest, o, clone, spread
 
-def sa(data, k=4000, m_rate=0.5, loud=False):
+def sa(data, k=4000, m_rate=0.5, loud=False, greedy=False):
+  # Based on TODO 2
+  random.shuffle(data.rows)
+  scoring = clone(data, data.rows[:50])
+  data    = clone(data, data.rows[50:])
+  
   # Extract bounds for numeric columns
   LO, HI = {}, {}
   for c in data.cols.x:
@@ -61,7 +66,7 @@ def sa(data, k=4000, m_rate=0.5, loud=False):
     # TODO 3: Replace "False" with Metropolis-Hastings acceptance criterion
     # Accept if: (1) en < e (better), OR (2) random.random() < exp((e - en) / T)
     # where T = 1 - heat/k (temperature that cools from 1 to 0)
-    if en < e or random.random() < math.exp((e - en) / (1-heat/k)):
+    if en < e or (random.random() < math.exp((e - en) / (1-heat/k)) and not greedy):
       s, e = sn, en
       if en < disty(data, best):
         best = s[:]
@@ -71,58 +76,48 @@ def sa(data, k=4000, m_rate=0.5, loud=False):
   if len(rounds) > 0:         
     avg = sum(rounds) / len(rounds)
     std = sum([(x - avg) ** 2 for x in rounds]) / len(rounds)  
-    print(f"Avg: {avg:.3f} Std: {std:.3f} Best: {max(rounds):.3f} Worst: {min(rounds):.3f}\n")
-    return best, max(rounds)
+    print(f"Avg: {avg:.3f} Std: {std:.3f} Best: {min(rounds):.3f} Worst: {max(rounds):.3f}\n")
+    return best, min(rounds)
   else:
     return best, 0
 
 if __name__ == "__main__":
-  # Original
-  seed, file = sys.argv[1:]
-  # random.seed(int(seed))
-  
+  type, seed, file = sys.argv[1:]
   data = Data(csv(file))
-  # # Take 50 random rows
-  # random.shuffle(data.rows)
-  # scoring = clone(data, data.rows[:50])
-  # # Reset Data from rest
-  # data = clone(data, data.rows[:50])
-  
-  # sa(data, loud=True)
-
-  # Experiment A
-  # for i in range(1,11):
-  #   random.seed(int(i))
-    
-  #   # Take 50 random rows
-  #   random.shuffle(data.rows)
-  #   scoring = clone(data, data.rows[:50])
-  #   # Reset Data from rest
-  #   data = clone(data, data.rows[:50])
-    
-  #   sa(data, loud=True)
-  
-  # Experiment B
   m_rates = {0.1, 0.3, 0.5, 0.7, 0.9}
   
-  # for mut in m_rates:
-  #   print(f"############# Mutation Rate: {mut} #############")
-  #   bests = []
-  #   for i in range(1,6):
-  #     random.seed(int(i))
+  if type == "--og": # Part 1 Implementation
+    random.seed(int(seed))
+    sa(data, loud=True)
+    
+  elif type == "--exprA": # Experiment A
+    for i in range(1,11):
+      random.seed(int(i))
+      sa(data, loud=True)
       
-  #     # Take 50 random rows
-  #     random.shuffle(data.rows)
-  #     scoring = clone(data, data.rows[:50])
-  #     # Reset Data from rest
-  #     data = clone(data, data.rows[:50])
+  elif type == "--exprB": # Experiment B
+    for mut in m_rates:
+      print(f"############# Mutation Rate: {mut} #############")
+      bests = []
+      for i in range(1,6):
+        random.seed(int(i))
+        best, rounds_best = sa(data, m_rate=mut, loud=True)
+        bests.append(rounds_best)
+      if len(bests)> 0: avg = sum(bests) / len(bests)  
+      print(f"Mean Final Score:{avg:.3f}\n")
       
-  #     best, rounds_best = sa(data, m_rate=mut, loud=True)
-  #     bests.append(rounds_best)
-  #   if len(bests)> 0: avg = sum(bests) / len(bests)  
-  #   print(f"Mean Final Score:{avg:.3f}\n")
-  
-  rounds = [0.189, 0.260, 0.186, 0.249, 0.263, 0.375, 0.301, 0.284, 0.190, 0.163]
-  avg = sum(rounds) / len(rounds)
-  std = sum([(x - avg) ** 2 for x in rounds]) / len(rounds)  
-  print(f"Avg: {avg:.3f} Std: {std:.3f} Best: {max(rounds):.3f} Worst: {min(rounds):.3f}\n")
+  elif type == "--greedy":
+    print("####### Greedy #######")
+    for i in range(1,21):
+      print(f"Seed: {i}")
+      random.seed(int(i))
+      best, best_score = sa(data, greedy=True)
+      
+    print("####### SA #######")
+    for i in range(1,21):
+      print(f"Seed: {i}")
+      random.seed(int(i))
+      best, best_score = sa(data, greedy=False)
+    
+  else:
+    print("Please include one of the following flags: --og, --exprA, --exprB, --greedy || type, seed, file")
