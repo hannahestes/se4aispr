@@ -1,0 +1,245 @@
+Starting: ../../moot/optimize/misc/auto93.csv
+Starting: ../../moot/optimize/financial_data/Loan.csv
+Starting: ../../moot/optimize/behavior_data/all_players.csv
+Starting: ../../moot/optimize/test/dataset120.csv
+Starting: ../../moot/optimize/config/rs-6d-c3_obj1.csv
+Starting: ../../moot/optimize/config/SQL_AllMeasurements.csv
+Starting: ../../moot/optimize/config/SS-J.csv
+Starting: ../../moot/optimize/config/SS-X.csv
+Starting: ../../moot/optimize/config/SS-A.csv
+Starting: ../../moot/optimize/config/SS-C.csv
+Completed: ../../moot/optimize/config/SS-X.csv -> {('saRplus', 30), ('sa', 30), ('ls', 30)}
+Starting: ../../moot/optimize/config/SS-M.csv
+Completed: ../../moot/optimize/config/SS-A.csv -> {('saRplus', 30), ('ls', 30), ('sa', 30)}
+Starting: ../../moot/optimize/config/SS-W.csv
+Completed: ../../moot/optimize/config/SS-C.csv -> {('sa', 30), ('ls', 30), ('saRplus', 30)}
+Starting: ../../moot/optimize/config/SS-T.csv
+Completed: ../../moot/optimize/misc/auto93.csv -> {('saRplus', 200)}
+Starting: ../../moot/optimize/misc/Car_price_cleaned.csv
+Completed: ../../moot/optimize/config/SS-M.csv -> {('saRplus', 30), ('sa', 30), ('ls', 30)}
+Starting: ../../moot/optimize/config/SS-L.csv
+Completed: ../../moot/optimize/config/SQL_AllMeasurements.csv -> {('saRplus', 30), ('sa', 30), ('ls', 30)}
+Starting: ../../moot/optimize/config/SS-H.csv
+Completed: ../../moot/optimize/config/rs-6d-c3_obj1.csv -> {('ls', 30), ('lsRminus', 30), ('sa', 30), ('saRplus', 30)}
+Starting: ../../moot/optimize/config/Apache_AllMeasurements.csv
+Starting: ../../moot/optimize/config/HSMGP_num.csv
+Completed: ../../moot/optimize/config/SS-W.csv -> {('saRplus', 200)}
+Starting: ../../moot/optimize/config/SS-U.csv
+Completed: ../../moot/optimize/config/SS-J.csv -> {('saRplus', 30), ('ls', 30)}
+Starting: ../../moot/optimize/config/wc-6d-c1-obj1.csv
+Completed: ../../moot/optimize/config/SS-T.csv -> {('ls', 100)}
+Starting: ../../moot/optimize/config/SS-G.csv
+Starting: ../../moot/optimize/config/SS-P.csv
+Completed: ../../moot/optimize/test/dataset120.csv -> {('saRplus', 30), ('sa', 30), ('ls', 30)}
+Starting: ../../moot/optimize/config/rs-6d-c3_obj2.csv
+Completed: ../../moot/optimize/config/SS-U.csv -> {('sa', 200)}
+Starting: ../../moot/optimize/config/SS-B.csv
+Completed: ../../moot/optimize/config/SS-H.csv -> {('saRplus', 30)}
+Starting: ../../moot/optimize/config/SS-I.csv
+Completed: ../../moot/optimize/config/SS-P.csv -> {('saRplus', 50), ('sa', 50)}
+Starting: ../../moot/optimize/config/SS-Q.csv
+Completed: ../../moot/optimize/config/HSMGP_num.csv -> {('ls', 30), ('sa', 30), ('saRplus', 30)}
+Starting: ../../moot/optimize/config/wc+rs-3d-c4-obj1.csv
+Starting: ../../moot/optimize/config/SS-S.csv
+Completed: ../../moot/optimize/config/wc-6d-c1-obj1.csv -> {('sa', 30), ('saRplus', 30), ('ls', 30)}
+Starting: ../../moot/optimize/config/SS-N.csv
+Completed: ../../moot/optimize/config/SS-B.csv -> {('saRplus', 30), ('ls', 30), ('sa', 30)}
+Starting: ../../moot/optimize/health_data/Data_COVID19_Indonesia.csv
+Completed: ../../moot/optimize/config/SS-L.csv -> {('saRplus', 30), ('ls', 30)}
+Starting: ../../moot/optimize/config/SS-V.csv
+Completed: ../../moot/optimize/config/rs-6d-c3_obj2.csv -> {('saRplus', 30), ('lsRminus', 30), ('sa', 30), ('ls', 30)}
+Starting: ../../moot/optimize/config/sol-6d-c2-obj1.csv
+Completed: ../../moot/optimize/config/SS-I.csv -> {('saRplus', 50)}
+Starting: ../../moot/optimize/config/SS-K.csv
+Completed: ../../moot/optimize/config/SS-Q.csv -> {('sa', 100), ('saRplus', 100)}
+Starting: ../../moot/optimize/config/SS-F.csv
+Starting: ../../moot/optimize/config/X264_AllMeasurements.csv
+Completed: ../../moot/optimize/config/SS-S.csv -> {('sa', 100)}
+Starting: ../../moot/optimize/config/SS-R.csv
+Completed: ../../moot/optimize/config/SS-V.csv -> {('saRplus', 30), ('ls', 30)}
+Starting: ../../moot/optimize/sales_data/Marketing_Analytics.csv
+Completed: ../../moot/optimize/config/X264_AllMeasurements.csv -> {('sa', 30), ('ls', 30), ('saRplus', 30)}
+Starting: ../../moot/optimize/config/SS-D.csv
+Starting: ../../moot/optimize/systems/javagc.csv
+Completed: ../../moot/optimize/config/sol-6d-c2-obj1.csv -> {('saRplus', 30), ('lsRminus', 30), ('sa', 30), ('ls', 30)}
+Starting: ../../moot/optimize/config/wc+wc-3d-c4-obj1.csv
+Starting: ../../moot/optimize/systems/PostgreSQL.csv
+Completed: ../../moot/optimize/config/SS-K.csv -> {('saRplus', 30)}
+Starting: ../../moot/optimize/systems/exastencils.csv
+Completed: ../../moot/optimize/config/SS-R.csv -> {('sa', 200), ('saRplus', 200), ('ls', 200)}
+Starting: ../../moot/optimize/config/SS-E.csv
+Completed: ../../moot/optimize/systems/PostgreSQL.csv -> {('saRplus', 30), ('lsRminus', 30), ('sa', 30), ('ls', 30)}
+Starting: ../../moot/optimize/systems/dconvert.csv
+Completed: ../../moot/optimize/financial_data/Loan.csv -> {('ls', 200)}
+Starting: ../../moot/optimize/financial_data/WA_Fn-UseC_-Telco-Customer-Churn.csv
+Completed: ../../moot/optimize/config/SS-E.csv -> {('sa', 100)}
+Starting: ../../moot/optimize/config/wc+sol-3d-c4-obj1.csv
+Starting: ../../moot/optimize/hpo/Health-ClosedPRs0003.csv
+Completed: ../../moot/optimize/systems/exastencils.csv -> {('saRplus', 30), ('sa', 30), ('ls', 30)}
+Starting: ../../moot/optimize/systems/HSQLDB.csv
+Completed: ../../moot/optimize/systems/dconvert.csv -> {('saRplus', 30), ('sa', 30), ('ls', 30)}
+Starting: ../../moot/optimize/systems/redis.csv
+Completed: ../../moot/optimize/config/SS-N.csv -> {('ls', 200)}
+Starting: ../../moot/optimize/config/SS-O.csv
+Completed: ../../moot/optimize/systems/HSQLDB.csv -> {('saRplus', 30), ('sa', 30), ('ls', 30)}
+Starting: ../../moot/optimize/systems/BDBC.csv
+Completed: ../../moot/optimize/financial_data/WA_Fn-UseC_-Telco-Customer-Churn.csv -> {('ls', 30), ('saRplus', 30), ('sa', 30)}
+Starting: ../../moot/optimize/financial_data/BankChurners.csv
+Completed: ../../moot/optimize/hpo/Health-ClosedPRs0003.csv -> {('ls', 30), ('lsRminus', 30), ('sa', 30), ('saRplus', 30)}
+Starting: ../../moot/optimize/hpo/Health-ClosedPRs0002.csv
+Completed: ../../moot/optimize/systems/BDBC.csv -> {('saRplus', 30), ('sa', 30), ('ls', 30)}
+Starting: ../../moot/optimize/systems/x264.csv
+Completed: ../../moot/optimize/config/SS-O.csv -> {('ls', 200)}
+Starting: ../../moot/optimize/hpo/Health-ClosedPRs0011.csv
+Completed: ../../moot/optimize/hpo/Health-ClosedPRs0002.csv -> {('ls', 30), ('lsRminus', 30), ('sa', 30), ('saRplus', 30)}
+Starting: ../../moot/optimize/hpo/Health-ClosedPRs0000.csv
+Completed: ../../moot/optimize/systems/redis.csv -> {('saRplus', 30), ('sa', 30), ('ls', 30)}
+Starting: ../../moot/optimize/systems/LLVM.csv
+Completed: ../../moot/optimize/health_data/Data_COVID19_Indonesia.csv -> {('saRplus', 30)}
+Starting: ../../moot/optimize/health_data/Medical_Data_and_Hospital_Readmissions.csv
+Completed: ../../moot/optimize/misc/Car_price_cleaned.csv -> {('saRplus', 100)}
+Starting: ../../moot/optimize/misc/Wine_quality.csv
+Completed: ../../moot/optimize/hpo/Health-ClosedPRs0011.csv -> {('lsRminus', 30), ('sa', 30), ('saRplus', 30), ('ls', 30)}
+Starting: ../../moot/optimize/hpo/Health-ClosedPRs0010.csv
+Completed: ../../moot/optimize/systems/LLVM.csv -> {('saRplus', 30), ('sa', 30), ('ls', 30)}
+Starting: ../../moot/optimize/hpo/Health-ClosedPRs0006.csv
+Completed: ../../moot/optimize/hpo/Health-ClosedPRs0000.csv -> {('ls', 30), ('lsRminus', 30), ('sa', 30), ('saRplus', 30)}
+Starting: ../../moot/optimize/hpo/Health-ClosedPRs0005.csv
+Completed: ../../moot/optimize/systems/javagc.csv -> {('sa', 30), ('ls', 30), ('saRplus', 30)}
+Starting: ../../moot/optimize/systems/storm.csv
+Completed: ../../moot/optimize/hpo/Health-ClosedPRs0010.csv -> {('ls', 100)}
+Starting: ../../moot/optimize/hpo/Health-ClosedPRs0004.csv
+Completed: ../../moot/optimize/hpo/Health-ClosedPRs0006.csv -> {('ls', 30)}
+Starting: ../../moot/optimize/hpo/Health-ClosedPRs0007.csv
+Completed: ../../moot/optimize/hpo/Health-ClosedPRs0005.csv -> {('ls', 30), ('lsRminus', 30), ('sa', 30), ('saRplus', 30)}
+Starting: ../../moot/optimize/hpo/Health-ClosedIssues0002.csv
+Completed: ../../moot/optimize/financial_data/BankChurners.csv -> {('sa', 100), ('saRplus', 100)}
+Starting: ../../moot/optimize/behavior_data/WA_Fn-UseC_-HR-Employee-Attrition.csv
+Completed: ../../moot/optimize/behavior_data/all_players.csv -> {('ls', 100), ('saRplus', 100)}
+Starting: ../../moot/optimize/behavior_data/student_dropout.csv
+Completed: ../../moot/optimize/sales_data/Marketing_Analytics.csv -> {('saRplus', 200)}
+Starting: ../../moot/optimize/sales_data/dress-up.csv
+Completed: ../../moot/optimize/systems/x264.csv -> {('saRplus', 30), ('sa', 30), ('ls', 30)}
+Starting: ../../moot/optimize/hpo/Health-ClosedIssues0011.csv
+Completed: ../../moot/optimize/hpo/Health-ClosedPRs0004.csv -> {('ls', 50)}
+Starting: ../../moot/optimize/hpo/Health-Commits0009.csv
+Completed: ../../moot/optimize/hpo/Health-ClosedPRs0007.csv -> {('saRplus', 30), ('lsRminus', 30), ('sa', 30), ('ls', 30)}
+Starting: ../../moot/optimize/hpo/Health-Commits0008.csv
+Completed: ../../moot/optimize/misc/Wine_quality.csv -> {('saRplus', 200)}
+Starting: ../../moot/optimize/financial_data/home_data_for_ml_course.csv
+Completed: ../../moot/optimize/hpo/Health-ClosedIssues0002.csv -> {('ls', 30), ('lsRminus', 30), ('sa', 30), ('saRplus', 30)}
+Starting: ../../moot/optimize/hpo/Health-ClosedIssues0000.csv
+Completed: ../../moot/optimize/sales_data/dress-up.csv -> {('ls', 200), ('saRplus', 200)}
+Starting: ../../moot/optimize/sales_data/socks.csv
+Completed: ../../moot/optimize/hpo/Health-ClosedIssues0011.csv -> {('saRplus', 30), ('lsRminus', 30), ('sa', 30), ('ls', 30)}
+Starting: ../../moot/optimize/hpo/Health-ClosedIssues0010.csv
+Completed: ../../moot/optimize/systems/storm.csv -> {('sa', 30), ('ls', 30), ('saRplus', 30), ('lsRminus', 30)}
+Starting: ../../moot/optimize/systems/7z.csv
+Completed: ../../moot/optimize/hpo/Health-Commits0009.csv -> {('sa', 30), ('ls', 30)}
+Starting: ../../moot/optimize/hpo/Health-ClosedIssues0007.csv
+Completed: ../../moot/optimize/hpo/Health-Commits0008.csv -> {('saRplus', 200)}
+Starting: ../../moot/optimize/hpo/Health-ClosedIssues0003.csv
+Completed: ../../moot/optimize/hpo/Health-ClosedIssues0000.csv -> {('ls', 30), ('sa', 30), ('saRplus', 30)}
+Starting: ../../moot/optimize/hpo/Health-ClosedIssues0001.csv
+Completed: ../../moot/optimize/health_data/Medical_Data_and_Hospital_Readmissions.csv -> {('saRplus', 30), ('ls', 30), ('sa', 30)}
+Starting: ../../moot/optimize/health_data/Life_Expectancy_Data.csv
+Completed: ../../moot/optimize/hpo/Health-ClosedIssues0010.csv -> {('saRplus', 200), ('ls', 200)}
+Starting: ../../moot/optimize/hpo/Health-ClosedIssues0004.csv
+Completed: ../../moot/optimize/hpo/Health-ClosedIssues0007.csv -> {('saRplus', 50), ('ls', 50), ('sa', 50)}
+Starting: ../../moot/optimize/hpo/Health-ClosedIssues0009.csv
+Completed: ../../moot/optimize/hpo/Health-ClosedIssues0003.csv -> {('sa', 50), ('ls', 50)}
+Starting: ../../moot/optimize/hpo/Health-Commits0005.csv
+Completed: ../../moot/optimize/systems/7z.csv -> {('sa', 30), ('ls', 30), ('saRplus', 30)}
+Starting: ../../moot/optimize/systems/deeparch.csv
+Completed: ../../moot/optimize/hpo/Health-ClosedIssues0001.csv -> {('saRplus', 200)}
+Starting: ../../moot/optimize/hpo/Health-ClosedIssues0005.csv
+Completed: ../../moot/optimize/systems/deeparch.csv -> {('sa', 30), ('ls', 30), ('saRplus', 30)}
+Starting: ../../moot/optimize/hpo/Health-ClosedPRs0009.csv
+Completed: ../../moot/optimize/hpo/Health-ClosedIssues0004.csv -> {('sa', 200)}
+Starting: ../../moot/optimize/hpo/Health-ClosedIssues0006.csv
+Completed: ../../moot/optimize/hpo/Health-Commits0005.csv -> {('saRplus', 100)}
+Starting: ../../moot/optimize/hpo/Health-Commits0004.csv
+Completed: ../../moot/optimize/hpo/Health-ClosedIssues0009.csv -> {('ls', 200), ('sa', 200), ('saRplus', 200)}
+Starting: ../../moot/optimize/hpo/Health-ClosedIssues0008.csv
+Completed: ../../moot/optimize/hpo/Health-ClosedIssues0005.csv -> {('sa', 200), ('saRplus', 200)}
+Starting: ../../moot/optimize/hpo/Health-Commits0002.csv
+Completed: ../../moot/optimize/sales_data/socks.csv -> {('saRplus', 30), ('sa', 30), ('ls', 30)}
+Starting: ../../moot/optimize/sales_data/wallpaper.csv
+Completed: ../../moot/optimize/hpo/Health-ClosedPRs0009.csv -> {('sa', 50)}
+Starting: ../../moot/optimize/hpo/Health-ClosedPRs0008.csv
+Completed: ../../moot/optimize/behavior_data/student_dropout.csv -> {('ls', 30), ('saRplus', 30), ('sa', 30)}
+Starting: ../../moot/optimize/behavior_data/player_statistics_cleaned_final.csv
+Starting: ../../moot/optimize/test/dataset600.csv
+Completed: ../../moot/optimize/hpo/Health-ClosedIssues0006.csv -> {('saRplus', 30), ('sa', 30), ('ls', 30)}
+Starting: ../../moot/optimize/binary_config/Scrum10k.csv
+Completed: ../../moot/optimize/hpo/Health-Commits0004.csv -> {('ls', 200), ('sa', 200)}
+Starting: ../../moot/optimize/hpo/Health-Commits0010.csv
+Completed: ../../moot/optimize/hpo/Health-ClosedIssues0008.csv -> {('sa', 100)}
+Starting: ../../moot/optimize/hpo/Health-Commits0011.csv
+Completed: ../../moot/optimize/hpo/Health-Commits0002.csv -> {('saRplus', 200), ('ls', 200)}
+Starting: ../../moot/optimize/hpo/Health-Commits0000.csv
+Completed: ../../moot/optimize/behavior_data/WA_Fn-UseC_-HR-Employee-Attrition.csv -> {('sa', 50), ('saRplus', 50)}
+Starting: ../../moot/optimize/binary_config/FM-500-100-1.00-SAT-1.csv
+Completed: ../../moot/optimize/hpo/Health-ClosedPRs0008.csv -> {('saRplus', 50), ('ls', 50)}
+Starting: ../../moot/optimize/hpo/Health-Commits0007.csv
+Completed: ../../moot/optimize/sales_data/wallpaper.csv -> {('sa', 30)}
+Starting: ../../moot/optimize/binary_config/billing10k.csv
+Completed: ../../moot/optimize/health_data/Life_Expectancy_Data.csv -> {('saRplus', 30), ('ls', 30), ('sa', 30)}
+Starting: ../../moot/optimize/sales_data/accessories.csv
+Completed: ../../moot/optimize/hpo/Health-Commits0010.csv -> {('ls', 100), ('sa', 100)}
+Starting: ../../moot/optimize/hpo/Health-Commits0006.csv
+Completed: ../../moot/optimize/hpo/Health-Commits0011.csv -> {('saRplus', 30), ('sa', 30), ('lsRminus', 30), ('ls', 30)}
+Starting: ../../moot/optimize/rl/A2C_CartPole.csv
+Completed: ../../moot/optimize/hpo/Health-Commits0000.csv -> {('ls', 30)}
+Starting: ../../moot/optimize/hpo/Health-Commits0001.csv
+Completed: ../../moot/optimize/sales_data/accessories.csv -> {('ls', 100)}
+Starting: ../../moot/optimize/process/coc1000.csv
+Completed: ../../moot/optimize/hpo/Health-Commits0007.csv -> {('saRplus', 50)}
+Starting: ../../moot/optimize/hpo/Health-Commits0003.csv
+Completed: ../../moot/optimize/test/dataset600.csv -> {('saRplus', 30), ('sa', 30), ('ls', 30)}
+Starting: ../../moot/optimize/process/xomo_flight.csv
+Completed: ../../moot/optimize/hpo/Health-Commits0006.csv -> {('ls', 30)}
+Completed: ../../moot/optimize/hpo/Health-Commits0001.csv -> {('ls', 30), ('lsRminus', 30), ('sa', 30), ('saRplus', 30)}
+Starting: ../../moot/optimize/binary_config/FFM-500-100-0.50-SAT-1.csv
+Completed: ../../moot/optimize/rl/A2C_CartPole.csv -> {('ls', 100)}
+Starting: ../../moot/optimize/process/xomo_ground.csv
+Completed: ../../moot/optimize/hpo/Health-Commits0003.csv -> {('sa', 200), ('saRplus', 200), ('ls', 200)}
+Completed: ../../moot/optimize/binary_config/billing10k.csv -> {('saRplus', 200), ('sa', 200)}
+Starting: ../../moot/optimize/binary_config/FFM-250-50-0.50-SAT-1.csv
+Completed: ../../moot/optimize/binary_config/Scrum10k.csv -> {('saRplus', 200)}
+Starting: ../../moot/optimize/binary_config/FFM-125-25-0.50-SAT-1.csv
+Completed: ../../moot/optimize/financial_data/home_data_for_ml_course.csv -> {('ls', 50)}
+Completed: ../../moot/optimize/process/coc1000.csv -> {('ls', 200)}
+Starting: ../../moot/optimize/process/xomo_osp.csv
+Completed: ../../moot/optimize/process/xomo_flight.csv -> {('sa', 50), ('saRplus', 50)}
+Starting: ../../moot/optimize/process/pom3a.csv
+Completed: ../../moot/optimize/process/xomo_ground.csv -> {('saRplus', 100), ('ls', 100), ('sa', 100)}
+Starting: ../../moot/optimize/process/nasa93dem.csv
+Starting: ../../moot/optimize/process/xomo_osp2.csv
+Completed: ../../moot/optimize/binary_config/FFM-125-25-0.50-SAT-1.csv -> {('saRplus', 50)}
+Starting: ../../moot/optimize/binary_config/FM-500-100-0.50-SAT-1.csv
+Completed: ../../moot/optimize/process/pom3a.csv -> {('sa', 200), ('ls', 200)}
+Starting: ../../moot/optimize/process/pom3d.csv
+Completed: ../../moot/optimize/process/pom3d.csv -> {('saRplus', 100)}
+Completed: ../../moot/optimize/process/xomo_osp.csv -> {('ls', 100), ('sa', 100)}
+Starting: ../../moot/optimize/process/pom3b.csv
+Completed: ../../moot/optimize/process/xomo_osp2.csv -> {('saRplus', 200)}
+Completed: ../../moot/optimize/binary_config/FFM-250-50-0.50-SAT-1.csv -> {('ls', 200), ('saRplus', 200), ('sa', 200)}
+Starting: ../../moot/optimize/binary_config/FFM-1000-200-0.50-SAT-1.csv
+Completed: ../../moot/optimize/process/pom3b.csv -> {('sa', 200)}
+Starting: ../../moot/optimize/process/pom3c.csv
+Completed: ../../moot/optimize/process/pom3c.csv -> {('ls', 50)}
+Completed: ../../moot/optimize/binary_config/FM-500-100-1.00-SAT-1.csv -> {('saRplus', 100), ('ls', 100)}
+Starting: ../../moot/optimize/binary_config/Scrum100k.csv
+Completed: ../../moot/optimize/binary_config/FFM-500-100-0.50-SAT-1.csv -> {('ls', 100)}
+Completed: ../../moot/optimize/binary_config/Scrum100k.csv -> {('sa', 200), ('saRplus', 200)}
+Starting: ../../moot/optimize/binary_config/FM-500-100-0.75-SAT-1.csv
+Completed: ../../moot/optimize/binary_config/FM-500-100-0.50-SAT-1.csv -> {('saRplus', 200), ('sa', 200), ('ls', 200)}
+Starting: ../../moot/optimize/binary_config/Scrum1k.csv
+Completed: ../../moot/optimize/binary_config/Scrum1k.csv -> {('saRplus', 100)}
+Completed: ../../moot/optimize/binary_config/FM-500-100-0.75-SAT-1.csv -> {('saRplus', 50)}
+Starting: ../../moot/optimize/binary_config/FM-500-100-0.25-SAT-1.csv
+Completed: ../../moot/optimize/binary_config/FFM-1000-200-0.50-SAT-1.csv -> {('ls', 200)}
+Starting: ../../moot/optimize/rl/A2C_Acrobot.csv
+Completed: ../../moot/optimize/rl/A2C_Acrobot.csv -> {('saRplus', 200)}
+Completed: ../../moot/optimize/binary_config/FM-500-100-0.25-SAT-1.csv -> {('ls', 100)}
