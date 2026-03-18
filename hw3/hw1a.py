@@ -36,4 +36,11 @@ for n_pos, n_neg in RATIOS:
   print(f"{ratio_str:>8} {summary.acc:>5} {summary.pd:>5} {summary.pf:>5} {summary.prec}")
 
 # In instances where the positive class is less frequent (most examples are negative) the accuracy will seem like it is really high even if it predicts all true instances incorrectly, because they are so rare. When we see the ratio increasing, as in the cases of true cases becoming more rare, the accuracy is very high. Someone who does not know about this misleading factor of accuracy would assume that it is really good at predictions when in reality, it is not.
-  
+ 
+      /* ratio   acc    pd    pf  prec */
+/* ---------------------------------------- */
+   /* 50:50    83    83    17 83 */
+   /* 10:90    93    93     7 93 */
+    /* 5:95    94    94     6 94 */
+    /* 1:99    95    95     5 95 */
+   /* 1:999    95    95     5 95 */
